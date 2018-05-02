@@ -1,0 +1,120 @@
+body {
+  color: #c9cacc;
+  background-color: #074a6b;
+  font-size: 12pt;
+  font-family: "游ゴシック体", "Yu Gothic", "YuGothic", "ヒラギノ角ゴ ProN", "ヒラギノ角ゴシック ProN", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", "MigMix 1P", "TakaoExゴシック", "TakaoExGothic", "Takao Pゴシック", "TakaoPGothic", "sans-serif";
+  font-weight: 400;
+  line-height: 200%;
+  margin: 20px;
+}
+td.gutter {
+  text-align: right;
+  padding-right: 20px;
+  display: none;
+}
+section.body {
+  background: #fff;
+  color: #000;
+  border: solid 1px;
+  padding: 2%;
+}
+.header {
+  background: #182733;
+  color: #fff;
+  font-size: 300%;
+  font-family: serif;
+  padding: 2%;
+  margin-bottom: 20px;
+}
+.header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+}
+article {
+  background: #fff;
+  color: #000;
+  border: solid 1px;
+  margin-bottom: 10px;
+  padding: 2%;
+}
+article h1 {
+  font-size: 100%;
+  color: #000;
+}
+article h2 {
+  font-size: 150%;
+  color: #000;
+  background: linear-gradient(transparent 60%, #73ccf6 0%);
+  padding-left: 0em;
+}
+article h3 {
+  font-size: 130%;
+  color: #000;
+  background: linear-gradient(transparent 60%, #f8b1d1 0%);
+  padding-left: 0.5em;
+}
+article p {
+  text-indent: 1em;
+}
+article figure {
+  background: #ead48a;
+}
+article code {
+  background: #ead48a;
+}
+article .article-tag a {
+  background: linear-gradient(transparent 60%, #fee202 0%);
+  color: #000;
+  text-decoration: none;
+  font-weight: normal;
+  word-break: none;
+}
+.highlight {
+  color: #a9b7c6;
+  background: #282b2e;
+}
+.highlight .code .number,
+.highlight .code .literal,
+.highlight .code .symbol,
+.highlight .code .bullet {
+  color: #6897bb;
+}
+.highlight .code .keyword,
+.highlight .code .selector-tag,
+.highlight .code .deletion {
+  color: #cc7832;
+}
+.highlight .code .variable,
+.highlight .code .template-variable,
+.highlight .code .link {
+  color: #629755;
+}
+.highlight .code .comment,
+.highlight .code .quote {
+  color: #808080;
+}
+.highlight .code .meta {
+  color: #bbb529;
+}
+.highlight .code .string,
+.highlight .code .attribute,
+.highlight .code .addition {
+  color: #6a8759;
+}
+.highlight .code .section,
+.highlight .code .title,
+.highlight .code .type {
+  color: #ffc66d;
+}
+.highlight .code .name,
+.highlight .code .selector-id,
+.highlight .code .selector-class {
+  color: #e8bf6a;
+}
+.highlight .code .emphasis {
+  font-style: italic;
+}
+.highlight .code .strong {
+  font-weight: bold;
+}
